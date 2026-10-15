@@ -1,5 +1,12 @@
 # Manufacturing Quality Analytics Dashboard
 
+**[🚀 Live Interactive Dashboard](https://manufacturing-quality-analytics.zhihdanya.workers.dev)**
+
+Explore manufacturing quality KPIs, defect trends, Pareto analysis, and interactive filtering in a browser.
+
+**Tech:** React · TypeScript · Power BI · Recharts · Motion
+**Data:** Synthetic, anonymized manufacturing inspection dataset.
+
 A browser-only quality analytics portfolio project built from a synthetic, anonymized Power BI report. The first release implements **Quality Overview**; the portfolio release focuses on one complete analytical page.
 
 ## Run locally
