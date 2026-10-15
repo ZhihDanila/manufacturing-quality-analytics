@@ -1,0 +1,110 @@
+[
+  {
+    "filters": {
+      "model": "",
+      "start": "2025-03-03",
+      "end": "2025-06-20",
+      "area": "",
+      "defectType": ""
+    },
+    "expected": {
+      "cars": 2296,
+      "defects": 11326,
+      "dpu": 4.932926829268292,
+      "drr": 0.06402439024390244,
+      "ftt": 0.05966898954703833,
+      "fttCars": 137,
+      "records": 20288
+    }
+  },
+  {
+    "filters": {
+      "model": "Model A",
+      "start": "2025-03-03",
+      "end": "2025-03-03",
+      "area": "",
+      "defectType": ""
+    },
+    "expected": {
+      "cars": 21,
+      "defects": 96,
+      "dpu": 4.571428571428571,
+      "drr": 0.09523809523809523,
+      "ftt": 0.09523809523809523,
+      "fttCars": 2,
+      "records": 178
+    }
+  },
+  {
+    "filters": {
+      "model": "Model B",
+      "start": "2025-04-01",
+      "end": "2025-04-30",
+      "area": "",
+      "defectType": ""
+    },
+    "expected": {
+      "cars": 155,
+      "defects": 806,
+      "dpu": 5.2,
+      "drr": 0.06451612903225806,
+      "ftt": 0.05806451612903226,
+      "fttCars": 9,
+      "records": 1401
+    }
+  },
+  {
+    "filters": {
+      "model": "Model C",
+      "start": "2025-05-01",
+      "end": "2025-06-20",
+      "area": "Incoming",
+      "defectType": ""
+    },
+    "expected": {
+      "cars": 99,
+      "defects": 191,
+      "dpu": 1.9292929292929293,
+      "drr": 0.1919191919191919,
+      "ftt": 0.18181818181818182,
+      "fttCars": 18,
+      "records": 210
+    }
+  },
+  {
+    "filters": {
+      "model": "",
+      "start": "2025-03-03",
+      "end": "2025-06-20",
+      "area": "",
+      "defectType": "Conforming"
+    },
+    "expected": {
+      "cars": 2286,
+      "defects": 0,
+      "dpu": 0.0,
+      "drr": 1.0,
+      "ftt": 0.06124234470691164,
+      "fttCars": 140,
+      "records": 8962
+    }
+  },
+  {
+    "filters": {
+      "model": "",
+      "start": "2025-03-03",
+      "end": "2025-06-20",
+      "area": "Assembly",
+      "defectType": "Quality finding"
+    },
+    "expected": {
+      "cars": 1641,
+      "defects": 3023,
+      "dpu": 1.842169408897014,
+      "drr": 0.0,
+      "ftt": 0.0,
+      "fttCars": 0,
+      "records": 3023
+    }
+  }
+]
